@@ -96,6 +96,9 @@ Artefact
 Title: Workshop reflection on AI, academic integrity, and everyday study tools
 Type: Workshop notes and personal reflection
 
+<img width="943" height="2048" alt="WhatsApp Image 2026-08-04 at 09 08 40" src="https://github.com/user-attachments/assets/1a74b1a8-3519-4b39-970d-4cf3a4ac56dc" />
+
+
 Summary of the Artefact
 
 This workshop reflection is a reflection on the use of Generative AI tools with a focus on ChatGPT with regard to University study and assessment. In the workshop we talked about appropriate uses of AI – explain how something works, generate questions to practice, and enhance writing – and inappropriate uses, including submitting AI generated content as his or her own. AI needs were also pointed out to vary across units in relation to expected learning outcomes and assessment needs were highlighted. 
