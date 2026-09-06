@@ -36,7 +36,11 @@ Artefact 2: AI Training and the Limits of Fair Use
 
 
 News article: Thomson Reuters wins AI copyright “fair use” ruling against one-time competitor
+
 Image: 
+
+<img width="1600" height="713" alt="WhatsApp Image 2026-09-06 at 17 13 35" src="https://github.com/user-attachments/assets/ba49093c-388d-4fe8-9680-c68b1adac6ad" />
+
 
 Open artefact/source
 Brittain, B 2025, ‘Thomson Reuters wins AI copyright “fair use” ruling against one-time competitor’, Reuters, 11 February, viewed 5 September 2026.
