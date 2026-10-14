@@ -2,7 +2,10 @@
 
 **COIT11223 – ICT Ethics and Governance in Society | Assessment 3 Part B**
 
-**Student Name:** _[Your name]_ | **Student ID:** _[Your ID]_ | **Term:** T2 2026
+
+Name: HIRALBEN HEMANTKUMAR THAKKAR
+Student Id: 12318249
+ | **Term:** T2 2026
 
 ---
 
