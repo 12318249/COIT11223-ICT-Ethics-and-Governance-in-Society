@@ -1,86 +1,109 @@
 # E-Portfolio 5: Automated Decision-Making (ADM) in Government Systems
 
-**COIT11223 – ICT Ethics and Governance in Society | Assessment 3 Part B**
-
-
-Name: HIRALBEN HEMANTKUMAR THAKKAR
-Student Id: 12318249
- | **Term:** T2 2026
+**Unit:** COIT11223 – ICT Ethics and Governance in Society
+**Assessment:** Assessment 3 Part B – E-Portfolio
+**Name:** Hiralben Hemantkumar Thakkar
+**Student ID:** 12318249
+**Term:** T2 2026
 
 ---
 
 ## Table of Contents
 
-1. [Introduction: What is ADM?](#1-introduction-what-is-adm)
+1. [What is ADM?](#1-what-is-adm)
 2. [Why ADM Matters to Me as an ICT Professional](#2-why-adm-matters-to-me-as-an-ict-professional)
-3. [My Perspective Before This Unit](#3-my-perspective-before-this-unit)
-4. [Analytical Framework Used in This Portfolio](#4-analytical-framework-used-in-this-portfolio)
+3. [My Views Before This Unit](#3-my-views-before-this-unit)
+4. [How I Analyse Each Artefact](#4-how-i-analyse-each-artefact)
 5. [Artefact 1 – Australian Government ADM Consultation Paper (2024)](#artefact-1--australian-government-adm-consultation-paper-2024)
-6. [Artefact 2 – Allars (2024): Robodebt and Administrative Review](#artefact-2--allars-2024-robodebt-and-administrative-review)
-7. [Artefact 3 – Ombudsman Report on the Targeted Compliance Framework (2025)](#artefact-3--ombudsman-report-on-the-targeted-compliance-framework-2025)
-8. [Artefact 4 – DTA Policy for the Responsible Use of AI in Government v2.0 (2025)](#artefact-4--dta-policy-for-the-responsible-use-of-ai-in-government-v20-2025)
-9. [Artefact 5 – Sweden's Welfare Fraud Algorithm (Amnesty International, 2024)](#artefact-5--swedens-welfare-fraud-algorithm-amnesty-international-2024)
-10. [Artefact 6 – Bias in the UK DWP Universal Credit Fraud Model (2024)](#artefact-6--bias-in-the-uk-dwp-universal-credit-fraud-model-2024)
-11. [Comparative Analysis: Australia vs Other Countries](#comparative-analysis-australia-vs-other-countries)
-12. [Conclusion: How My Understanding Has Changed](#conclusion-how-my-understanding-has-changed)
+6. [Artefact 2 – Allars (2024): Robodebt and ADM Review](#artefact-2--allars-2024-robodebt-and-adm-review)
+7. [Artefact 3 – Targeted Compliance Framework Failure (2025–2026)](#artefact-3--targeted-compliance-framework-failure-20252026)
+8. [Artefact 4 – DTA Policy for Responsible Use of AI in Government v2.0 (2025)](#artefact-4--dta-policy-for-responsible-use-of-ai-in-government-v20-2025)
+9. [Artefact 5 – Sweden's Welfare Fraud Algorithm (2024)](#artefact-5--swedens-welfare-fraud-algorithm-2024)
+10. [Artefact 6 – Bias in the UK Welfare Fraud System (2024)](#artefact-6--bias-in-the-uk-welfare-fraud-system-2024)
+11. [Comparison: Australia vs Other Countries](#comparison-australia-vs-other-countries)
+12. [Conclusion: What I Have Learned](#conclusion-what-i-have-learned)
 13. [References](#references)
 
 ---
 
-## 1. Introduction: What is ADM?
+## 1. What is ADM?
 
-Automated decision-making (ADM) is the use of technology, usually described in Commonwealth legislation as a "computer program", to automate all or part of a decision-making process that affects people's rights or entitlements (Attorney-General's Department 2024, p. 7). Allars (2024, p. 1147) describes ADM as a model in which rule-based formulae are run by computer programs to determine whether an individual meets legal criteria.
+Automated decision-making (ADM) means using a computer system to make, or help make, a decision about a person. In Australian law, this system is usually called a "computer program" (Attorney-General's Department 2024, p. 7). Allars (2024, p. 1147) explains that ADM uses rules written into a program to check whether a person meets the legal conditions for something, such as a payment.
 
-ADM sits on a spectrum:
+ADM can work at different levels:
 
-| Level of automation | Example | Human role |
+| Level | Example | Role of a human |
 |---|---|---|
-| Data extraction only | System pulls records for an officer to review | Human decides |
-| Decision support | System recommends an outcome or flags risk | Human signs off (often with little analysis) |
-| Partial decision | System determines factual elements, e.g. income | Human decides the rest |
-| Full decision | System issues the decision, e.g. payment cancellation | None at the time of decision |
+| Collects data only | The system pulls up a person's records | A human makes the decision |
+| Gives advice | The system recommends an outcome or flags a risk | A human approves it, often without checking much |
+| Makes part of the decision | The system works out a fact, such as income | A human decides the rest |
+| Makes the full decision | The system cancels a payment on its own | No human at the time of the decision |
 
-_Source: adapted from Attorney-General's Department (2024, p. 15)._
+*Source: adapted from Attorney-General's Department (2024, p. 15).*
 
-ADM and AI are related but distinct. Most Commonwealth ADM is **rules-based** ("if this, then that"), while newer systems use **machine learning** that infers outcomes from historical data and may not be explainable even to its developers (Attorney-General's Department 2024, pp. 12–13). Both types appear in this portfolio: Robodebt and the Targeted Compliance Framework (rules-based) in Australia, and machine-learning fraud models in Sweden and the United Kingdom.
+There are two main types of ADM:
+
+- **Rules-based systems** follow fixed "if this, then that" rules. Most Australian government ADM is this type.
+- **Machine learning (ML) systems** learn patterns from past data and make predictions. Sometimes even the people who built them cannot explain why they gave a certain result (Attorney-General's Department 2024, pp. 12–13).
+
+This portfolio covers both types: rules-based systems in Australia (Robodebt and the Targeted Compliance Framework) and ML systems in Sweden and the United Kingdom.
 
 ---
 
 ## 2. Why ADM Matters to Me as an ICT Professional
 
-ICT professionals are the people who translate legislation and policy into code. When the code is wrong, the error is not made once; it is repeated across hundreds of thousands of people before anyone notices. ADM is attractive to governments because it is faster, cheaper and more consistent than human processing (Attorney-General's Department 2024, p. 9). However, the same report lists risks that sit squarely within my professional responsibility: algorithmic bias, coding errors that misrepresent the law, inflexible application of rules where discretion is required, and the de-skilling of human officers (Attorney-General's Department 2024, p. 10).
+ICT professionals turn laws and policies into code. If a human officer makes a mistake, it affects one person. If a computer system has a mistake, it can affect hundreds of thousands of people before anyone notices.
 
-The ACS Code of Professional Conduct requires me to put the **public interest** ahead of personal, employer or business interests, to protect **quality of life** for those affected by my work, and to maintain **competence** (Australian Computer Society 2014). The six artefacts below show what happens when those duties are not met in government systems, where the people affected are often the most vulnerable members of society and cannot simply choose another provider.
+Governments use ADM because it is faster, cheaper and more consistent than people doing the same work by hand (Attorney-General's Department 2024, p. 9). But the same report lists four main risks (Attorney-General's Department 2024, p. 10):
 
----
+1. **Algorithmic bias** – the system treats some groups unfairly.
+2. **Coding errors** – the code does not match what the law says.
+3. **Inflexible decisions** – the system cannot handle special cases that need human judgement.
+4. **De-skilling** – staff start trusting the computer instead of thinking for themselves.
 
-## 3. My Perspective Before This Unit
-
-<!-- PERSONALISE THIS SECTION with your own experience, e.g. a government portal, visa system, myGov, Centrelink, or a system from your home country. Markers reward genuine personal reflection. -->
-
-Before starting COIT11223, I viewed ADM mostly as a technical efficiency problem. I assumed that if a system was well tested, automation would be fairer than human decision-making because computers do not have bad days or personal prejudices. I had heard of Robodebt, but I understood it as "a buggy algorithm" rather than as an ethical and legal failure. I also assumed that keeping a "human in the loop" was a sufficient safeguard.
-
-Over the term, the ethical theories from Week 4 and the ACS Code gave me tools to question those assumptions. As the artefacts below show, I now see ADM as a **socio-technical** system in which policy choices, legal interpretation, data quality, organisational culture and code all interact.
+All four risks are part of my job as an ICT professional. The ACS Code of Professional Conduct says I must put the **public interest** first, improve people's **quality of life**, and stay **competent** in my work (Australian Computer Society 2014). Government systems matter even more because people usually cannot choose another provider. If Centrelink's system is wrong, a welfare recipient has nowhere else to go.
 
 ---
 
-## 4. Analytical Framework Used in This Portfolio
+## 3. My Views Before This Unit
 
-Each artefact is analysed using the same framework so that my reflections are consistent and comparable.
+Before this unit, I thought ADM was mainly about speed and efficiency. I believed that if a system was tested well, it would be fairer than humans because computers do not get tired, angry or biased. I had heard about Robodebt, but I thought it was just "a computer bug". I also believed that if a human checks the final decision, the system is safe.
 
-**Ethical theories (Quinn 2020, Week 4 lecture):**
+During this unit, the ethical theories from Week 4 and the ACS Code helped me question these ideas. The six artefacts below show how my thinking changed. I now see ADM as a **socio-technical system**: the result depends not only on code, but also on policy choices, how the law is understood, data quality and the culture of the organisation.
 
-| Theory | Core question applied to ADM |
+---
+
+## 4. How I Analyse Each Artefact
+
+I use the same three tools for every artefact so that my reflections are consistent.
+
+**Tool 1: Ethical theories (Quinn 2020; Week 4 lecture)**
+
+| Theory | Question I ask about ADM |
 |---|---|
-| Kantianism | Does the system treat people as ends in themselves, or merely as a means to savings or efficiency? Could the rule be universalised? |
-| Act Utilitarianism | Do the total benefits of this specific deployment outweigh the total harms? |
-| Rule Utilitarianism | What would happen if every agency adopted this rule for using ADM? |
-| Social Contract Theory | Would rational citizens agree to this system? Does it protect the least advantaged (Rawls)? |
-| Virtue Ethics | What would an honest, fair and practically wise ICT professional do? |
+| Kantianism | Does the system respect people, or does it use them only as a way to save money? Could the rule apply to everyone fairly? |
+| Act Utilitarianism | In this one case, do the benefits add up to more than the harms? |
+| Rule Utilitarianism | What would happen if every government agency followed this same rule? |
+| Social Contract Theory | Would reasonable citizens agree to this system? Does it protect the people with the least power (Rawls)? |
+| Virtue Ethics | What would an honest, fair and wise ICT professional do here? |
 
-**ACS Code of Professional Conduct values (Australian Computer Society 2014):** 1.2.1 Primacy of the Public Interest; 1.2.2 Enhancement of Quality of Life; 1.2.3 Honesty; 1.2.4 Competence; 1.2.5 Professional Development; 1.2.6 Professionalism.
+**Tool 2: ACS Code of Professional Conduct (Australian Computer Society 2014)**
 
-**ADM lifecycle safeguards (Attorney-General's Department 2024, pp. 17–31):** pre-implementation (risk assessment); system-level (audit, legal compliance, updating); decision-level (human referral, substitution, notification, reasons); post-decision (merits review).
+- 1.2.1 Primacy of the Public Interest
+- 1.2.2 Enhancement of Quality of Life
+- 1.2.3 Honesty
+- 1.2.4 Competence
+- 1.2.5 Professional Development
+- 1.2.6 Professionalism
+
+**Tool 3: Four stages of ADM safeguards (Attorney-General's Department 2024, pp. 17–31)**
+
+| Stage | Example safeguard |
+|---|---|
+| 1. Before launch | Risk assessment |
+| 2. System level | Audits, legal checks, updating the system when laws change |
+| 3. Each decision | Human review, telling people ADM was used, giving reasons |
+| 4. After the decision | The right to appeal |
 
 ---
 
@@ -90,203 +113,224 @@ Each artefact is analysed using the same framework so that my reflections are co
 **Type:** Government policy document
 **Link:** https://consultations.ag.gov.au/integrity/adm/user_uploads/consultation-paper-use-of-automated-decision-making-by-government.pdf
 
-<!-- Optional: insert a screenshot of the cover page, e.g. ![AGD consultation paper](images/artefact1.png) -->
+![Figure 1: Attorney-General's Department ADM consultation paper (2024)](https://github.com/12318249/COIT11223-ICT-Ethics-and-Governance-in-Society/blob/main/E-Portfolio%205%20ADM%20in%20Government%20Systems/artefact1.png?raw=true)
+
+*Figure 1: Attorney-General's Department ADM consultation paper, November 2024.*
 
 ### Justification
 
-**Summary:** This consultation paper responds to Robodebt Royal Commission Recommendations 17.1 and 17.2 by proposing a consistent legal framework for government ADM (Attorney-General's Department 2024, pp. 5–6). It defines ADM as the use of a "computer program" to automate decision-making, and it distinguishes rules-based systems from machine-learning AI (Attorney-General's Department 2024, p. 7). It found that 46 Commonwealth Acts already authorise ADM in inconsistent ways (p. 5). It also names four key risks: algorithmic bias, coding errors, inflexible application of discretion, and de-skilling of officers (p. 10).
+**Summary:** The Attorney-General's Department released this paper in November 2024 after the Robodebt Royal Commission. It responds to Recommendations 17.1 and 17.2 and asks how Australia should create one clear legal framework for ADM (Attorney-General's Department 2024, pp. 5–6). It defines ADM as using a "computer program" to automate a decision (p. 7). It found 46 Commonwealth laws that already allow ADM, each written differently (p. 5). It lists the main risks as algorithmic bias, coding errors, inflexible decisions and de-skilling of staff (p. 10).
 
-**Why I chose it:** This artefact answers the first framing question, "What is ADM?", using the Australian Government's own definition. It also gave me a lifecycle model of safeguards (pre-implementation, system-level, decision-level and post-decision), which I use to evaluate every other artefact in this portfolio.
+**Why I chose it:** This artefact answers the first portfolio question, "What is ADM?", using the Australian Government's own definition. It is recent and official. It also gave me the four-stage safeguard model that I use to judge every other artefact in this portfolio.
 
 ### Reflection
 
-**What I learned about ADM:** I learned that ADM is not new. Section 6A of the *Social Security (Administration) Act 1999* has allowed computer programs to make decisions since 2001 (Attorney-General's Department 2024, p. 5). The problem is not automation itself but the piecemeal way it was authorised, without consistent safeguards. I was also surprised by the paper's admission that, as Robodebt showed, considerable harm can occur before complaint-based processes such as merits review stop unlawful action (Attorney-General's Department 2024, p. 16). Waiting for victims to complain is therefore not an adequate safeguard.
+**What I learned about ADM:** ADM is not new. Section 6A of the *Social Security (Administration) Act 1999* has allowed computers to make decisions since 2001 (Attorney-General's Department 2024, p. 5). The real problem is that ADM was added to laws one by one, without the same safeguards each time. The paper also admits that, as Robodebt showed, a lot of harm can happen before appeals and complaints stop an unlawful system (Attorney-General's Department 2024, p. 16). This taught me that waiting for people to complain is not a real safeguard.
 
-**How the artefact demonstrates this learning:** The paper's list of decision types (p. 15) helped me recognise that a "human sign-off" can be meaningless if the officer conducts no real analysis of the computer's recommendation. This changed my earlier assumption that a human in the loop is always protective.
+**How the artefact shows this learning:** The paper lists different ways a human can be involved (p. 15). One example is a human who just approves the computer's recommendation without checking it. This changed my belief that "a human in the loop" always protects people.
 
-**Links to unit material:** From a **Kantian** perspective, the Royal Commission's call for plain-language explanations and published business rules (p. 5) respects people as rational agents who are entitled to understand and challenge decisions about them. From a **Social Contract** perspective, citizens accept welfare conditions only on the understanding that rules are lawful and reviewable. The paper's proposed audit body and review rights try to restore that contract. Under the ACS Code, the proposed pre-implementation risk assessments (pp. 20–21) put **1.2.1 Primacy of the Public Interest** and **1.2.4 Competence** into practice.
+**Links to unit material:**
+- **Kantianism:** The Royal Commission said agencies should explain ADM in plain language and publish their business rules (p. 5). This respects people as thinking individuals who have the right to understand and challenge decisions about them.
+- **Social Contract Theory:** Citizens accept welfare rules because they trust those rules are lawful and can be appealed. The paper's proposed audit body and review rights try to rebuild that trust.
+- **ACS Code:** Risk assessments before launch (pp. 20–21) are a practical way to follow **1.2.1 Primacy of the Public Interest** and **1.2.4 Competence**.
 
-**Why it is meaningful evidence:** This artefact is the "baseline" for my portfolio. It shows I can define ADM accurately, distinguish ADM from AI, and use a structured safeguard framework rather than relying on general opinions.
+**Why it is meaningful evidence:** This artefact is the starting point of my portfolio. It shows that I can define ADM correctly, explain how it differs from AI, and use a clear framework instead of personal opinion.
 
 ---
 
-## Artefact 2 – Allars (2024): Robodebt and Administrative Review
+## Artefact 2 – Allars (2024): Robodebt and ADM Review
 
-**Artefact:** Allars, M. (2024) 'Automated decision-making and review of administrative decisions', *Georgia Law Review*, 58(3)
+**Artefact:** Allars, M 2024, 'Automated decision-making and review of administrative decisions', *Georgia Law Review*, vol. 58, no. 3
 **Type:** Peer-reviewed journal article
 **Link:** https://digitalcommons.law.uga.edu/glr/vol58/iss3/8
 
+![Figure 2: Allars (2024) journal article on ADM and Robodebt](https://github.com/12318249/COIT11223-ICT-Ethics-and-Governance-in-Society/blob/main/E-Portfolio%205%20ADM%20in%20Government%20Systems/artefact2.png?raw=true)
+
+*Figure 2: Allars (2024), Georgia Law Review, vol. 58, no. 3.*
+
 ### Justification
 
-**Summary:** Allars, a Sydney Law School academic, surveys Australian federal ADM schemes and analyses Robodebt in depth. Robodebt's "online compliance intervention" averaged each person's annual tax-office income into twenty-six equal fortnightly amounts and compared them with reported earnings (Allars 2024, p. 1168). This averaging rule was unlawful, and the letters demanding proof of income reversed the statutory onus of proof onto welfare recipients (Allars 2024, p. 1169). The Commonwealth raised about $1.763 billion in debts against roughly 433,000 people (Allars 2024, p. 1171).
+**Summary:** Allars, a law academic at the University of Sydney, studies how Australia uses ADM and explains Robodebt in detail. Robodebt took each person's yearly income from the tax office, divided it into 26 equal fortnightly amounts, and compared it with the income they had reported (Allars 2024, p. 1168). This "income averaging" was unlawful. The letters also forced people to prove they did not owe money, which reversed the legal burden of proof (Allars 2024, p. 1169). The government raised about $1.763 billion in debts against around 433,000 people (Allars 2024, p. 1171).
 
-**Why I chose it:** This scholarly, 2024 source challenged my belief that "the algorithm" caused Robodebt. Allars (2024, p. 1173) argues the unlawfulness was a product of human agency, and that ADM simply let the wrongdoing be carried out more efficiently (Allars 2024, p. 1182).
+**Why I chose it:** This is a peer-reviewed source from 2024, and it changed my view of Robodebt. Allars (2024, p. 1173) argues that the problem was caused by human decisions, not the computer. ADM only allowed the wrongdoing to happen faster and on a larger scale (Allars 2024, p. 1182).
 
 ### Reflection
 
-**What I learned about ADM:** The most important lesson was that ADM **amplifies** whatever policy is coded into it, including an unlawful one. Allars (2024, pp. 1172–1173) notes that the government persisted with income averaging despite early legal advice that it was unlawful. Automation turned one bad policy decision into hundreds of thousands of individual debts. I also learned that ADM affects vulnerable people unevenly. Casual workers with fluctuating incomes and poor fortnightly records were the people the averaging method was most likely to get wrong (Allars 2024, p. 1169).
+**What I learned about ADM:** ADM **multiplies** whatever policy is put into it, even an unlawful one. The government kept using income averaging even after early legal advice said it was unlawful (Allars 2024, pp. 1172–1173). Because it was automated, one bad decision became hundreds of thousands of wrong debts. I also learned that ADM hurts vulnerable people the most. Casual workers with changing incomes were the most likely to get wrong debts, because their income was not the same every fortnight (Allars 2024, p. 1169).
 
-**How the artefact demonstrates this learning:** The article traces the full chain from legal interpretation, to encoded business rule, to automated letter, to debt recovery. This let me see exactly where an ICT professional could have intervened. Allars (2024, p. 1148) also explains that ADM may apply rules inflexibly and shut out whole classes of eligible people without considering exceptional cases.
+**How the artefact shows this learning:** The article follows every step: how the law was read, how it was coded, how letters were sent automatically, and how debts were collected. This helped me see where an ICT professional could have stopped the problem. Allars (2024, p. 1148) also explains that ADM can apply rules too strictly and reject whole groups of people without looking at special cases.
 
 **Links to unit material:**
-- **Kantianism:** Reversing the onus of proof treated recipients as a means to budget recovery, not as ends in themselves. The maxim "presume a debt unless the person can disprove it" could not be universalised without destroying trust in government.
-- **Act Utilitarianism:** This theory exposes a weakness. A department focused on dollars recovered could calculate a "positive" outcome, while severe personal distress and later restitution costs went uncounted.
-- **Rule Utilitarianism:** The theory gives a clearer verdict: a rule allowing agencies to automate debt-raising without confirming its legality would produce enormous harm if universally adopted.
-- **ACS Code:** **1.2.3 Honesty** was breached when known legal concerns were not acted on. **1.2.1 Primacy of the Public Interest** requires professionals to raise concerns even when an employer wants a system delivered.
+- **Kantianism:** Robodebt treated people as a way to recover money, not as people with dignity. A rule like "assume a debt unless the person proves otherwise" cannot fairly apply to everyone.
+- **Act Utilitarianism:** This theory shows a weakness. A department could count dollars recovered and call it a success, while ignoring people's stress and the later $112 million court settlement (Allars 2024, p. 1171).
+- **Rule Utilitarianism:** If every agency used ADM to raise debts without first checking the law, the total harm would be huge. So the rule is wrong.
+- **ACS Code:** **1.2.3 Honesty** was broken when known legal problems were ignored. **1.2.1 Primacy of the Public Interest** means professionals must speak up, even when their employer wants the system delivered.
 
-**Why it is meaningful evidence:** It is peer-reviewed, Australian and directly about government ADM. It shows I can engage critically with academic analysis and change my own position based on evidence.
+**Why it is meaningful evidence:** It is peer-reviewed, Australian and directly about government ADM. It shows I can read academic research critically and change my opinion based on evidence.
 
 ---
 
-## Artefact 3 – Ombudsman Report on the Targeted Compliance Framework (2025)
+## Artefact 3 – Targeted Compliance Framework Failure (2025–2026)
 
-**Artefact:** Commonwealth Ombudsman, *Automation in the Targeted Compliance Framework: when the law is changed but the system isn't* (August 2025), with follow-up AAP reporting (June 2026)
+**Artefact:** Commonwealth Ombudsman, *Automation in the Targeted Compliance Framework: when the law is changed but the system isn't* (August 2025), and follow-up AAP news report (June 2026)
 **Type:** Government investigation report and news article
 **Links:**
 - Report summary: https://www.austaxpolicy.com/news/commonwealth-ombudsman-finds-cancellation-of-income-support-payments-under-target-compliance-framework-unlawful/
-- Follow-up news: https://aapnews.aap.com.au/news/system-that-cancelled-welfare-payments-taken-offline
+- News report: https://aapnews.aap.com.au/news/system-that-cancelled-welfare-payments-taken-offline
+
+![Figure 3: Targeted Compliance Framework system taken offline (AAP News, 2026)](https://github.com/12318249/COIT11223-ICT-Ethics-and-Governance-in-Society/blob/main/E-Portfolio%205%20ADM%20in%20Government%20Systems/artefact3.png?raw=true)
+
+*Figure 3: AAP News report on the Targeted Compliance Framework, June 2026.*
 
 ### Justification
 
-**Summary:** The Ombudsman found that the Department of Employment and Workplace Relations and Services Australia unlawfully cancelled income support under the Targeted Compliance Framework (Commonwealth Ombudsman 2025). Post-Robodebt laws required officers to consider each jobseeker's circumstances before cancelling payments, but the automated system was never updated. As a result, 964 people lost payments between April 2022 and July 2024 (Garbutt-Young 2026). The department had also not created the Digital Protections Framework required by statute (Commonwealth Ombudsman 2025). In 2026 the system was taken offline for an extended rebuild (Garbutt-Young 2026).
+**Summary:** The Targeted Compliance Framework (TCF) is the system that manages job seekers' "mutual obligations", such as attending appointments. After Robodebt, the law was changed so that officers must consider each person's situation before cancelling a payment. But the computer system was never updated. Because of this, payments for 964 job seekers were unlawfully cancelled between April 2022 and July 2024 (Garbutt-Young 2026). The Ombudsman also found that the department had not set up the Digital Protections Framework required by law (Commonwealth Ombudsman 2025). In June 2026, the system was taken offline for several months to be fixed (Garbutt-Young 2026).
 
-**Why I chose it:** This is a current Australian case that happened after the Robodebt Royal Commission. It shows that lessons were not learned and makes system maintenance an ethical issue.
+**Why I chose it:** This is a recent Australian case that happened after the Robodebt Royal Commission. It shows that the lessons of Robodebt were not fully learned, and that keeping a system up to date is an ethical duty.
 
 ### Reflection
 
-**What I learned about ADM:** I learned that ADM systems can **become** unlawful without anyone writing new code. When Parliament changes the law but nobody updates the system, the system keeps applying the old rules automatically. The Attorney-General's Department (2024, p. 23) had already identified "requirement to update the system throughout its lifecycle" as a necessary safeguard. The Targeted Compliance Framework shows what happens when that safeguard is missing. The Ombudsman also found that quality assurance failed to detect the problem and that there was significant delay between identifying the unlawful cancellations and pausing them (Commonwealth Ombudsman 2025).
+**What I learned about ADM:** A system can **become** unlawful even if nobody changes its code. When the law changes but the system does not, the system keeps following the old rules automatically. The Attorney-General's Department (2024, p. 23) had already said that systems must be updated throughout their life. The TCF shows what happens when this does not happen. The Ombudsman also found that quality checks did not catch the problem, and there was a long delay between finding the problem and stopping the cancellations (Commonwealth Ombudsman 2025).
 
-**How the artefact demonstrates this learning:** The report title, "when the law is changed but the system isn't", captures a gap between policy teams and technical teams. The Ombudsman found insufficient consultation between policy and operational areas within the department, and with Services Australia (Commonwealth Ombudsman 2025). This is exactly where ICT professionals sit.
+**How the artefact shows this learning:** The report's title, "when the law is changed but the system isn't", shows a gap between the policy team and the technical team. The Ombudsman found poor communication between policy staff and operations staff, and between the department and Services Australia (Commonwealth Ombudsman 2025). ICT professionals work exactly in this gap.
 
 **Links to unit material:**
-- **Virtue Ethics:** The question is not only "what rule was broken" but "what kind of professional allows a known risk to persist?" Practical wisdom and diligence would mean actively checking that systems reflect current law.
-- **Social Contract Theory:** Parliament changed the rules to protect jobseekers, but the automated system broke that agreement. This undermines public trust in the whole compliance system.
-- **ACS Code:** **1.2.4 Competence** includes keeping work consistent with legal requirements. **1.2.5 Professional Development** requires staying current with changes that affect my work. **1.2.2 Enhancement of Quality of Life** was clearly not served when vulnerable jobseekers lost income support.
+- **Virtue Ethics:** The question is not only "which rule was broken?" but "what kind of professional lets a known risk continue?" A careful and wise professional would regularly check that the system matches the current law.
+- **Social Contract Theory:** Parliament changed the law to protect job seekers, but the system broke that promise. This damages public trust.
+- **ACS Code:** **1.2.4 Competence** means making sure my work follows the law. **1.2.5 Professional Development** means keeping up with changes that affect my work. **1.2.2 Enhancement of Quality of Life** was clearly not met when vulnerable people lost their income support.
 
-**Why it is meaningful evidence:** It connects the unit to what is happening in Australian society during my studies, and it proves that Robodebt was not a one-off. It also shows that I can identify a specific professional duty (system maintenance and change management) rather than only general ethical principles.
+**Why it is meaningful evidence:** It links the unit to what is happening in Australia right now. It proves Robodebt was not a one-off event. It also shows I can identify a specific professional duty, which is system maintenance and change management.
 
 ---
 
-## Artefact 4 – DTA Policy for the Responsible Use of AI in Government v2.0 (2025)
+## Artefact 4 – DTA Policy for Responsible Use of AI in Government v2.0 (2025)
 
-**Artefact:** Digital Transformation Agency, *Policy for the responsible use of AI in government*, version 2.0 (effective 15 December 2025)
+**Artefact:** Digital Transformation Agency (DTA), *Policy for the responsible use of AI in government*, version 2.0 (in effect from 15 December 2025)
 **Type:** Whole-of-government policy
 **Link:** https://www.digital.gov.au/ai/ai-in-government-policy
 
+![Figure 4: DTA Policy for the responsible use of AI in government v2.0](https://github.com/12318249/COIT11223-ICT-Ethics-and-Governance-in-Society/blob/main/E-Portfolio%205%20ADM%20in%20Government%20Systems/artefact4.png?raw=true)
+
+*Figure 4: DTA Policy for the responsible use of AI in government, version 2.0, December 2025.*
+
 ### Justification
 
-**Summary:** This policy sets mandatory requirements for how non-corporate Commonwealth agencies adopt and govern AI (Digital Transformation Agency 2025). It replaces the first version, which took effect in September 2024. Agencies must:
-- publish an AI transparency statement;
-- designate accountable officials;
-- appoint an accountable owner for each in-scope AI use case;
-- keep an internal register of use cases;
-- complete impact assessments and report high-risk uses to the DTA.
+**Summary:** This policy sets rules for how Australian Government agencies use AI (Digital Transformation Agency 2025). Version 2.0 started on 15 December 2025 and replaced the first version from September 2024. Agencies must publish an AI transparency statement and name senior "accountable officials". They must also name an owner for each AI use case and keep a register of all their AI use cases. In addition, they must complete impact assessments and report high-risk uses to the DTA.
 
-**Why I chose it:** After studying failures, I wanted to examine Australia's governance response. This artefact shows what responsible practice now formally requires of government ICT teams. It also lets me critically assess whether policy alone is strong enough, given that the Targeted Compliance Framework failed despite existing legal duties.
+**Why I chose it:** After studying failures, I wanted to look at how Australia is responding. This policy shows what government ICT teams must now do. It also lets me ask whether a policy is strong enough on its own, since the TCF failed even though legal duties already existed.
 
 ### Reflection
 
-**What I learned about ADM:** I learned that Australia regulates government AI mainly through **policy and guidance**, not a single ADM statute. The Attorney-General's Department (2024, p. 11) explains that the ADM legal reform is meant to complement, not duplicate, these AI policies. This creates a layered but fragmented system, which Allars (2024, p. 1181) criticises as multiple complex guides, mostly expressed at a high level, with fractured lines of responsibility for compliance.
+**What I learned about ADM:** Australia controls government AI mainly through **policies and guidelines**, not one single ADM law. The planned ADM legal reform is meant to work alongside these AI policies (Attorney-General's Department 2024, p. 11). This creates many layers of rules. Allars (2024, p. 1181) criticises this, saying there are many complex guides written in general terms, with unclear responsibility for following them.
 
-**How the artefact demonstrates this learning:** The policy's accountability roles respond directly to the problems in Artefacts 2 and 3, where nobody clearly owned the legality of the system. Its transparency statements also partly implement the Royal Commission's recommendation that agencies explain their use of automation publicly (Attorney-General's Department 2024, p. 18). However, I noticed a limitation: the use case registers are shared with the DTA, not necessarily with the public, so affected citizens may still not know how a decision about them was made.
+**How the artefact shows this learning:** The policy's accountability roles respond directly to the problems in Artefacts 2 and 3, where nobody clearly owned the legal correctness of the system. The transparency statements also partly follow the Royal Commission's advice that agencies should publicly explain how they use automation (Attorney-General's Department 2024, p. 18). However, I noticed a weakness. The use case registers are shared with the DTA but not necessarily with the public. So a person affected by a decision may still not know how it was made.
 
 **Links to unit material:**
-- **Rule Utilitarianism:** The policy is rule-based ethics in practice. It creates general rules whose consistent application across agencies is expected to produce better outcomes than case-by-case judgement.
-- **Kantianism:** The transparency requirements respect people's right to understand decisions about them.
-- **ACS Code:** The accountable official role reflects **1.2.6 Professionalism** and **1.2.1 Primacy of the Public Interest**. Mandatory staff training supports **1.2.5 Professional Development**.
+- **Rule Utilitarianism:** The policy sets general rules for all agencies, expecting better results than if each agency decided on its own.
+- **Kantianism:** Transparency statements respect people's right to understand decisions about them.
+- **ACS Code:** The accountable official role supports **1.2.6 Professionalism** and **1.2.1 Primacy of the Public Interest**. Required staff training supports **1.2.5 Professional Development**.
 
-**Why it is meaningful evidence:** It shows I can move beyond criticising failures to evaluating solutions, which is what an ICT professional would need to do in a government role. It also demonstrates awareness that a governance document is only as good as its implementation.
+**Why it is meaningful evidence:** It shows I can go beyond criticising failures and evaluate solutions, which is what an ICT professional in government must do. It also shows I understand that a policy is only as good as how it is followed.
 
 ---
 
-## Artefact 5 – Sweden's Welfare Fraud Algorithm (Amnesty International, 2024)
+## Artefact 5 – Sweden's Welfare Fraud Algorithm (2024)
 
 **Artefact:** Amnesty International, 'Sweden: Authorities must discontinue discriminatory AI systems used by welfare agency' (27 November 2024)
 **Type:** Human rights organisation statement based on investigative journalism
 **Link:** https://www.amnesty.org/en/latest/news/2024/11/sweden-authorities-must-discontinue-discriminatory-ai-systems-used-by-welfare-agency/
 
+![Figure 5: Amnesty International statement on Sweden's welfare AI system (2024)](https://github.com/12318249/COIT11223-ICT-Ethics-and-Governance-in-Society/blob/main/E-Portfolio%205%20ADM%20in%20Government%20Systems/artefact5.png?raw=true)
+
+*Figure 5: Amnesty International statement on Försäkringskassan, 27 November 2024.*
+
 ### Justification
 
-**Summary:** Amnesty International (2024) called on Försäkringskassan, Sweden's Social Insurance Agency, to stop using an opaque machine-learning system that flagged people for benefit-fraud investigations. An investigation by Lighthouse Reports and Svenska Dagbladet found the system disproportionately selected marginalised groups (Amnesty International 2024). Reporting identified women, people with foreign backgrounds, low-income earners and people without university degrees as over-flagged (Computer Weekly 2024). The agency refused to explain how the system worked. Sweden's privacy authority later announced the tool was no longer in use (Amnesty International n.d.).
+**Summary:** Försäkringskassan, Sweden's Social Insurance Agency, used a machine learning system to choose which people to investigate for welfare fraud. Journalists from Lighthouse Reports and Svenska Dagbladet found that it unfairly targeted marginalised groups, and Amnesty International (2024) called for it to be stopped. The groups flagged more often were women, people with foreign backgrounds, people on low incomes and people without university degrees (Computer Weekly 2024). The agency refused to explain how the system worked. Sweden's privacy authority later announced that the tool was no longer being used (Amnesty International n.d.).
 
-**Why I chose it:** This is my international comparison. Unlike Australia's rules-based failures, it shows a machine-learning system producing biased outcomes, examined against the European Union's binding AI Act.
+**Why I chose it:** This is my international case. Unlike Australia's rules-based failures, it shows a machine learning system producing biased results. It also lets me compare Australia with the European Union, which has a binding law, the EU AI Act.
 
 ### Reflection
 
-**What I learned about ADM:** I learned that machine-learning ADM can discriminate even when it never explicitly uses a protected attribute, because other data can act as proxies. The Attorney-General's Department (2024, p. 13) warns that AI systems may inherit human biases from their training data and cause systemic impacts on protected groups. This case is a real example. I also learned that opacity makes bias almost impossible to challenge. Amnesty (2024) noted that the agency's lack of disclosure made it hard even to determine where the system fell under the AI Act's risk categories.
+**What I learned about ADM:** A machine learning system can discriminate even if it never directly uses data such as gender or ethnicity. Other data can act as a **proxy**, which means it indirectly points to the same group. The Attorney-General's Department (2024, p. 13) warns that AI can learn human bias from its training data. Sweden is a real example. I also learned that when a system is secret, its bias is almost impossible to challenge. Amnesty (2024) said that because the agency would not share details, it was hard to even work out how the EU AI Act applied to the system.
 
-**How the artefact demonstrates this learning:** The Swedish case shows the difference between a system being **accurate on average** and being **fair to individuals**. An investigation is itself a burden. People wrongly flagged experienced delays and legal hurdles in getting benefits they were entitled to (Amnesty International 2024).
+**How the artefact shows this learning:** This case shows the difference between a system that is **accurate on average** and one that is **fair to each person**. Being investigated is itself a burden. People who were wrongly flagged faced delays and legal problems in getting benefits they were entitled to (Amnesty International 2024).
 
 **Links to unit material:**
-- **Social Contract Theory (Rawls):** Rawls' difference principle asks whether a system benefits the least advantaged. Here, the burden of suspicion fell on low-income and marginalised groups, so the system fails this test.
-- **Act Utilitarianism:** It may justify the system if fraud savings are large. However, this approach treats the cost borne by wrongly flagged individuals as a small number in a total, which is the theory's well-known weakness with minority rights.
-- **ACS Code:** **1.2.2 Enhancement of Quality of Life** asks professionals to consider the needs of disadvantaged groups. **1.2.3 Honesty** is undermined when an agency will not explain how its system reaches outcomes.
+- **Social Contract Theory (Rawls):** Rawls says a fair system should benefit the people with the least advantage. Here, the burden of suspicion fell on low-income and marginalised people, so the system fails this test.
+- **Act Utilitarianism:** It might support the system if it saves a lot of money from fraud. But it treats the harm to wrongly flagged people as just a small number in a total, which is a known weakness of this theory.
+- **ACS Code:** **1.2.2 Enhancement of Quality of Life** asks professionals to think about disadvantaged groups. **1.2.3 Honesty** is weakened when an agency will not explain how its system works.
 
-**Why it is meaningful evidence:** It satisfies the requirement to examine a government system in another country. It also broadens my understanding from coding errors to algorithmic bias and shows how a stronger legal environment (the EU AI Act, in force from August 2024) can create pressure that Australia's current policy-based approach may lack.
+**Why it is meaningful evidence:** It covers the requirement to study a government system in another country. It widens my learning from coding errors to algorithmic bias. It also shows how a stronger law, the EU AI Act, which started in August 2024, can create pressure that Australia's policy-based approach may not.
 
 ---
 
-## Artefact 6 – Bias in the UK DWP Universal Credit Fraud Model (2024)
+## Artefact 6 – Bias in the UK Welfare Fraud System (2024)
 
 **Artefact:** *Computing*, 'AI bias uncovered in UK welfare system' (December 2024), reporting on documents first obtained by *The Guardian* under Freedom of Information
 **Type:** Technology news article
 **Link:** https://computing.co.uk/news/2024/ai/ai-bias-uncovered-in-uk-welfare-system
 
+![Figure 6: Computing report on AI bias in the UK DWP welfare system (2024)](https://github.com/12318249/COIT11223-ICT-Ethics-and-Governance-in-Society/blob/main/E-Portfolio%205%20ADM%20in%20Government%20Systems/artefact6.png?raw=true)
+
+*Figure 6: Computing report on AI bias in the UK welfare system, December 2024.*
+
 ### Justification
 
-**Summary:** The UK Department for Work and Pensions (DWP) uses a machine-learning model to risk-assess universal credit advance claims. According to *Computing* (2024), an internal fairness analysis released under Freedom of Information found statistically significant outcome disparities based on age, disability, marital status and nationality. The DWP redacted key details, arguing that disclosure could help fraudsters game the system, and defended the tool because humans make the final decision. The article notes at least 55 automated tools in use across UK public authorities (*Computing* 2024).
+**Summary:** The UK Department for Work and Pensions (DWP) uses a machine learning model to check Universal Credit advance claims for fraud. *Computing* (2024) reported that the DWP's own fairness test found "statistically significant" differences in who was flagged, based on age, disability, marital status and nationality. The DWP hid key details, saying fraudsters could use them to cheat the system. It defended the tool because a human makes the final decision. The article also notes that UK public authorities use at least 55 automated tools (*Computing* 2024).
 
-**Why I chose it:** This artefact directly tests the "human in the loop" safeguard. That was the safeguard I trusted most before this unit, and it is the one the Robodebt Royal Commission called among the most effective (Attorney-General's Department 2024, p. 25).
+**Why I chose it:** This artefact tests the "human in the loop" safeguard. Before this unit, I trusted this safeguard the most. The Robodebt Royal Commission also saw human review as one of the most effective safeguards (Attorney-General's Department 2024, p. 25).
 
 ### Reflection
 
-**What I learned about ADM:** The key lesson is that a human making the final decision does not remove bias if the human only reviews cases that a biased model has already selected. The unfairness happens at the **selection** stage. This links to the Attorney-General's Department (2024, p. 10) warning that ADM can de-skill officers and increase reliance on, and default to, the system's output. A human officer who sees only flagged cases may treat the flag as evidence. I also learned about a real tension in transparency: publishing full business rules could help fraudsters, but secrecy prevents affected people from challenging bias (Attorney-General's Department 2024, p. 19).
+**What I learned about ADM:** Having a human make the final decision does not remove bias if the human only sees cases that a biased system has already selected. The unfairness happens at the **selection** stage, before the human is involved. This links to the warning that ADM can make staff rely on the computer instead of their own judgement (Attorney-General's Department 2024, p. 10). An officer who only sees flagged cases may treat the flag as proof. I also learned about a real problem with transparency. Publishing the full rules might help fraudsters, but keeping them secret stops affected people from challenging bias (Attorney-General's Department 2024, p. 19).
 
-**How the artefact demonstrates this learning:** The DWP's position (humans decide, so bias is acceptable) is exactly the argument I would have made before this unit. Seeing it criticised made me realise that safeguards must be judged by their **effect**, not their existence.
+**How the artefact shows this learning:** The DWP's argument, "a human decides, so bias is not a problem", is exactly what I would have said before this unit. Seeing it criticised taught me to judge a safeguard by its **real effect**, not just by whether it exists.
 
 **Links to unit material:**
-- **Virtue Ethics:** An honest and fair professional would publish enough of the fairness findings for independent scrutiny, rather than relying on redaction.
-- **Kantianism:** Kant would object to treating individuals as statistical risk profiles based on characteristics they cannot control.
-- **Rule Utilitarianism:** It suggests a rule that every government ML model must have published fairness testing before deployment, because the long-term benefit of public trust outweighs the short-term cost of some fraudsters adapting.
-- **ACS Code:** **1.2.3 Honesty** requires not misrepresenting a system's reliability. Earlier assurances of "no immediate concerns" sit uneasily with later evidence of disparities. **1.2.1** requires putting the public interest above an agency's preference for secrecy.
+- **Virtue Ethics:** An honest and fair professional would publish enough of the fairness results for independent experts to check, instead of hiding them.
+- **Kantianism:** Kant would object to treating people as risk scores based on things they cannot control, such as age or disability.
+- **Rule Utilitarianism:** It supports a rule that every government ML system must publish fairness testing before launch. Long-term public trust is worth more than the small risk of some fraudsters adapting.
+- **ACS Code:** **1.2.3 Honesty** means not overstating how reliable a system is. **1.2.1 Primacy of the Public Interest** means putting the public ahead of an agency's wish for secrecy.
 
-**Why it is meaningful evidence:** Together with Artefact 5, it shows a pattern across countries: governments are using machine learning to target welfare fraud, and the same groups are repeatedly disadvantaged. It also demonstrates that I can critically evaluate a safeguard I previously took for granted.
+**Why it is meaningful evidence:** Together with Artefact 5, it shows a pattern across countries. Governments are using machine learning to find welfare fraud, and the same groups keep being treated unfairly. It also shows that I can critically judge a safeguard I used to trust.
 
 ---
 
-## Comparative Analysis: Australia vs Other Countries
+## Comparison: Australia vs Other Countries
 
-| Dimension | Australia: Robodebt | Australia: Targeted Compliance Framework | Sweden: Försäkringskassan | United Kingdom: DWP |
+| | Australia: Robodebt | Australia: TCF | Sweden: Försäkringskassan | UK: DWP |
 |---|---|---|---|---|
-| **Technology** | Rules-based data matching | Rules-based compliance automation | Machine-learning risk scoring | Machine-learning risk scoring |
-| **Main failure** | Unlawful policy encoded into the system | System not updated after a law change | Biased flagging and opacity | Biased selection and redaction |
-| **Who was harmed** | ~433,000 welfare recipients | 964 jobseekers | Women, migrants, low-income groups | Groups by age, disability, marital status, nationality |
-| **Safeguard that failed** | Legal review and merits review | Lifecycle updating and quality assurance | Transparency | Human-in-the-loop |
-| **Response** | Royal Commission; AGD framework | Paused, then taken offline for rebuild | Tool discontinued after privacy authority involvement | Defended; continued scrutiny |
-| **Regulatory setting** | Policy and guidance; ADM law proposed | Policy and guidance; ADM law proposed | Binding EU AI Act | UK guidance-based approach |
+| **Type of system** | Rules-based | Rules-based | Machine learning | Machine learning |
+| **Main problem** | Unlawful rule coded into the system | System not updated after the law changed | Biased results and secrecy | Biased selection and hidden details |
+| **Who was harmed** | About 433,000 welfare recipients | 964 job seekers | Women, migrants, low-income people | Groups based on age, disability, marital status, nationality |
+| **Safeguard that failed** | Legal checks and appeals | Updating the system and quality checks | Transparency | Human in the loop |
+| **What happened next** | Royal Commission; new ADM framework proposed | Paused, then taken offline to fix | Tool stopped after privacy authority involvement | Defended by the DWP; still under scrutiny |
+| **Type of regulation** | Policies and guidelines; ADM law proposed | Policies and guidelines; ADM law proposed | Binding EU AI Act | Guidelines |
 
-**Key finding:** Rules-based and machine-learning ADM fail in different ways. Rules-based systems mostly fail through **legal error**: wrong or outdated rules applied at scale. Machine-learning systems mostly fail through **bias and opacity**. In every case, the people harmed were those with the least power to challenge government decisions. This is why I believe ADM in welfare deserves the highest level of scrutiny.
+**Key finding:** Rules-based and machine learning systems fail in different ways. Rules-based systems usually fail because of **legal errors**, where wrong or outdated rules are applied to thousands of people. Machine learning systems usually fail because of **bias and secrecy**. In every case, the people harmed were those with the least power to fight back. This is why I believe ADM in welfare needs the strongest checks.
 
 ---
 
-## Conclusion: How My Understanding Has Changed
+## Conclusion: What I Have Learned
 
-At the start of this unit, I saw ADM as a neutral efficiency tool and believed that testing plus human oversight would make it safe. My portfolio shows how that view changed:
+At the start of this unit, I saw ADM as a neutral tool for efficiency. I thought testing and human checks would make it safe. This portfolio shows how my thinking changed:
 
-1. **ADM is a policy amplifier, not a neutral tool.** Robodebt was a human legal error executed efficiently by a computer (Allars 2024, p. 1182).
-2. **Lawful systems can become unlawful.** The Targeted Compliance Framework shows that maintenance and change management are ethical duties, not just technical tasks.
-3. **"Human in the loop" is not automatically a safeguard.** The UK and Swedish cases show bias entering at the selection stage.
-4. **Transparency is necessary but contested.** Every case involved some form of secrecy, and secrecy repeatedly hid harm.
-5. **Governance is improving but fragmented.** Australia's DTA policy and proposed ADM framework are positive steps, but they rely heavily on agencies' good faith.
+1. **ADM multiplies human decisions.** Robodebt was a human legal mistake that a computer carried out quickly and at scale (Allars 2024, p. 1182).
+2. **A lawful system can become unlawful.** The TCF shows that updating systems when laws change is an ethical duty, not just a technical task.
+3. **A human in the loop is not always a safeguard.** The UK and Sweden cases show that bias can enter before the human is involved.
+4. **Transparency is needed, but it is complicated.** Every case involved some secrecy, and secrecy often hid harm.
+5. **Australia's rules are improving but scattered.** The DTA policy and the proposed ADM law are good steps, but they depend on agencies following them properly.
 
-Of the theories studied, I found **Social Contract Theory**, particularly Rawls' focus on the least advantaged, the most useful for ADM in government. It explains why harm to vulnerable welfare recipients is especially serious even when a system looks efficient overall. The **ACS Code** turns that principle into concrete professional duties I can act on.
+Of all the theories, I found **Social Contract Theory**, especially Rawls' focus on the least advantaged, the most useful for government ADM. It explains why harm to vulnerable welfare recipients is so serious, even when a system looks efficient overall. The **ACS Code** turns this idea into clear duties I can follow at work.
 
-As a future ICT professional, I will apply these lessons in practice:
-- Ask who is affected before building any system.
-- Insist that legal requirements are verified before they are coded.
-- Check that systems are updated when laws change.
-- Push for fairness testing and meaningful transparency.
-- Raise concerns early, even when it is uncomfortable.
+As a future ICT professional, I will:
+
+- ask who will be affected before building any system;
+- make sure the legal rules are checked before they are coded;
+- check that systems are updated when laws change;
+- push for fairness testing and real transparency;
+- speak up early when something is wrong, even if it is uncomfortable.
 
 ---
 
